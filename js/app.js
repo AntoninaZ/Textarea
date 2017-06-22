@@ -15,7 +15,6 @@ var TextCounter = {
 		this.events();
 	},
 	events: function() {
-		this.textArea.addEventListener('keypress', this.maxLength);
 		this.textArea.addEventListener('keyup', this.count);
 	},
 	countTotal: function() {
